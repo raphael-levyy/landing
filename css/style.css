@@ -1,0 +1,49 @@
+
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&family=Roboto+Flex:opsz,wght@8..144,200&display=swap");
+
+@import url("components/container.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+
+ body {
+	background-color: rgb(230, 230, 230);
+	color: rgb(50,50,50);
+	font-size: 16px;
+	font-family: 'Roboto Flex', sans-serif;
+	line-height: 1.6;
+	margin:0px;
+	text-align :center;
+ }
+
+
+h1, h2, h3 {
+	font-weight: bold;
+	text-align: center;
+}
+
+h1 {
+	color: white;
+	font-size: 32px;
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+
+
+h2{
+	color: rgb(120, 133, 136);
+	font-size: 24px;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-weight: lighter;
+}
+
+h3{
+	color: rgb(120, 133, 136);
+	font-size: 21px;
+	font-family: 'Roboto Flex', sans-serif;
+	text-align: center;
+}
+
+ a{
+ 	text-decoration: none;
+ }
